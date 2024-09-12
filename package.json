@@ -1,0 +1,19 @@
+{
+  "name": "fullstack-orm-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "tsx": "^4.19.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.4",
+    "typescript": "^5.6.2"
+  }
+}

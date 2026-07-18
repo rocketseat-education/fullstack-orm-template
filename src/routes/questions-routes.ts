@@ -7,6 +7,6 @@ const questionsController = new QuestionsController()
 questionsRoutes.get("/", questionsController.index)
 questionsRoutes.post("/", questionsController.create)
 questionsRoutes.put("/:id", questionsController.update)
-questionsRoutes.delete("/:id", questionsController.remove)
+questionsRoutes.delete("/:id", questionsController.delete)
 
 export { questionsRoutes }
